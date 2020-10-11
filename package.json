@@ -1,0 +1,28 @@
+{
+  "name": "event-manager",
+  "version": "1.0.0",
+  "description": "Web application to manage events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaHirapara/Event-Manager.git"
+  },
+  "author": "AdityaHirapara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdityaHirapara/Event-Manager/issues"
+  },
+  "homepage": "https://github.com/AdityaHirapara/Event-Manager#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "client-sessions": "^0.8.0",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.4.2"
+  }
+}
